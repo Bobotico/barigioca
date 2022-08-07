@@ -1,0 +1,156 @@
+.nomeCorso{
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    padding-top: 25px;
+    margin-top: 15%;
+
+    font-size: 28px;
+}
+
+.descrizioneCorso{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 20px;
+
+    font-size: 20px;
+}
+
+.imageCorso{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:100%;
+    align-items: center;
+}
+
+.buttonCorso{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: 'absolute';
+    bottom:0;
+    right:0;
+}
+.alignButton{
+    text-align: right;
+}
+
+@media screen and (max-width: 768px){
+    .nomeCorso{
+        text-align: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .descrizioneCorso{
+        text-align: center;
+        justify-content: center;
+
+        margin: 20px;
+        padding-bottom: 20px;
+
+        font-size: 20px;
+    }
+
+    .imageCorso{
+        margin-top: 25px;
+        margin-bottom: 5px;
+        width:100%;
+    }
+
+    .buttonCorso{
+        margin-top: 25px;
+        margin-bottom: 25px; 
+    }
+    .alignButton{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .nomeCorso{
+        text-align: left;
+        justify-content: left;
+        margin-top: 0;
+    }
+
+    .descrizioneCorso{
+        text-align: left;
+        justify-content: left;
+        padding-bottom: 20px;
+    }
+    
+    .imageCorso{
+        min-width: 350px;
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    .nomeCorso{
+        text-align: left;
+        justify-content: left;
+        margin-top: 0;
+    }
+
+    .descrizioneCorso{
+        text-align: left;
+        justify-content: left;
+    }
+    
+    .imageCorso{
+        min-width: 350px;
+        width: 100%;
+        max-width: 650px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+    .nomeCorso{
+        text-align: left;
+        justify-content: left;
+        margin-top: 0;
+
+        font-size: 32px;
+    }
+
+    .descrizioneCorso{
+        text-align: left;
+        justify-content: left;
+
+        font-size: 24px;
+    }
+    
+    .imageCorso{
+        min-width: 550px;
+        width: 100%;
+        max-width: 650px;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 3840px) {
+    .nomeCorso{
+        text-align: left;
+        justify-content: left;
+        margin-top: 0;
+
+        font-size: 36px;
+    }
+
+    .descrizioneCorso{
+        text-align: left;
+        justify-content: left;
+
+        font-size: 28px;
+    }
+    
+    .imageCorso{
+        min-width: 350px;
+        width: 100%;
+        max-width: 650px;
+    }
+}
+

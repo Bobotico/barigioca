@@ -1,0 +1,400 @@
+.carouselCourse::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      160deg,
+      var(--main-color) 100%,
+      var(--second-color) 0%
+    );
+    opacity: 0.6;
+    z-index: 3;
+  }
+
+.carouselCourse{
+    /*creates a carousel*/
+    padding-top:5px;
+    padding-bottom:0px;
+}
+
+.carouselItem{
+    width: 100%;
+    height: 500px;
+}
+
+.carouselImage{
+    width: 100%;
+    margin: auto;
+    opacity: .4;
+}
+
+.carouselCaption{
+    transform: translateY(-5%);
+}
+.carouselCaption h1{
+    font-size: 36px;
+}
+.carouselCaption p{
+    font-size: 28px;
+}
+
+@media screen and (max-width: 960px) {
+    .carouselCourse{
+        /*creates a carousel*/
+        padding-top:5px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 100%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 300px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-10%);
+    }
+    .carouselCaption h1{
+        font-size: 28px;
+    }
+    .carouselCaption p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .carouselCourse{
+        /*creates a carousel*/
+        background-color:rgba(0, 81, 255, 0.377);
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 100%;
+        margin: auto;
+        opacity: .8;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 650px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-10%);
+        color: #000;
+    }
+    .carouselCaption h1{
+        font-size: 28px;
+    }
+    .carouselCaption p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 480px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 160%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 425px;
+    }
+
+    .carouselCaption{
+        top: 35%;
+        transform: translateY(-38%);
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        flex: 1;
+    }
+    .carouselCaption h1{
+        font-size: 28px;
+    }
+    .carouselCaption p{
+        font-size: 18px;
+    }
+
+    .btnTXT1{
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .continueButton1{
+        height: 42px;
+    }
+
+    .buttonCorso1{
+        margin-top: 15px;
+    }
+    .buttonCorso2{
+        margin-top: 15px;
+    }
+    .buttonCorso3{
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 120%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 475px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-48%);
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    .carouselCaption h1{
+        margin-top: 5%;
+        font-size: 36px;
+        text-align: center;
+    }
+    .carouselCaption p{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .continueButton1{
+        width: 140px;
+        height: 50px;
+    }
+    .btnTXT1{
+        font-size: 20px;
+        margin-top: 3px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 120%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 600px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-42%);
+        color: #fff;
+        text-align: center;
+    }
+    .carouselCaption h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .carouselCaption p{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .continueButton1{
+        width: 140px;
+    }
+
+    .btnTXT1{
+        font-size: 22px;
+    }
+
+    .buttonCorso1{
+        padding-bottom: 110px;
+    }
+    .buttonCorso2{
+        padding-bottom: 110px;
+    }
+    .buttonCorso3{
+        padding-bottom: 110px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 100%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 675px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-38%);
+        color: #fff;
+        text-align: center;
+    }
+    .carouselCaption h1{
+        font-size: 46px;
+        text-align: center;
+    }
+    .carouselCaption p{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .btnTXT1{
+        font-size: 24px;
+    }
+
+    .buttonCorso1{
+        padding-bottom: 100px;
+    }
+    .buttonCorso2{
+        padding-bottom: 100px;
+    }
+    .buttonCorso3{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 100%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 675px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-28%);
+        color: #fff;
+        text-align: center;
+    }
+    .carouselCaption h1{
+        font-size: 48px;
+        text-align: center;
+    }
+    .carouselCaption p{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .continueButton1{
+        margin-top: 50px;
+    }
+    .btnTXT1{
+        font-size: 26px;
+        margin-top: -3px;
+    }
+    .buttonCorso1{
+        padding-bottom: 100px;
+        margin-top: 450px;
+    }
+    .buttonCorso2{
+        padding-bottom: 100px;
+    }
+    .buttonCorso3{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 3840px){
+    .carouselCourse{
+        /*creates a carousel*/
+        margin-top:25px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    
+    .carouselImage{
+        width: 100%;
+        margin: auto;
+        opacity: .4;
+    }
+
+    .carouselItem{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .carouselCaption{
+        transform: translateY(-10%);
+        color: #fff;
+        text-align: center;
+    }
+    .carouselCaption h1{
+        font-size: 96px;
+        text-align: center;
+    }
+    .carouselCaption p{
+        font-size: 64px;
+        text-align: center;
+    }
+}
+

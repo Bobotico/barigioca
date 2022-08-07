@@ -1,0 +1,557 @@
+:root {
+  --main-color: #cb2324;
+  --second-color: #ffff;/*colore dello sfondo dietro le sezioni*/;
+  --accent-color: ;
+}
+
+html {
+  scroll-behavior: smooth;
+  /*overflow-x: hidden;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--second-color);
+  /*overflow-x: hidden;*/
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.bg-second {
+  background-color: var(--second-color);
+}
+
+.transition {
+  transition: 0.4s;
+}
+
+.filler-hg {
+  height: 90vh;
+}
+
+.fix-height {
+  height: 5vh;
+}
+
+nav {
+  z-index: 10;
+}
+
+i{
+  color: white; /*Hamburger nav menu Smartphone view - COLOR*/
+  padding-right:5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .close-menu-icon{
+    position: absolute;
+    right:10%;
+    top:0;
+  }
+  
+  .smartnav {
+    position: absolute;
+    opacity: 0;
+    right: -100%;
+    top: 50px;
+    display: hidden;
+  }
+
+  .smartnav.active {
+    height: 100vh;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    right: 0%;
+    padding-right: 90px;
+    padding-top: 20px;
+    top: 50px;
+    transition: 0.4s;
+    background-color: var(--main-color);
+  }
+}
+
+/*above per modificare lunghezza header*/
+.above {
+  min-height: 75vh;
+  background-color: var(--main-color);
+  clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+}
+.half-above {
+  height: 75vh;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--main-color);
+  /*clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);*/
+}
+
+.px-custom {
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .px-custom {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.scrollDown { /*freccetta sotto Header*/
+  color: rgb(245, 245, 245);
+  margin-top: 195px;
+}
+.scrollDown:hover {
+  padding-top: 10px;
+}
+
+.bg-form {
+  height: 75vh;
+  background-color: var(--main-color);
+  clip-path: polygon(0 0, 94% 8%, 100% 100%, 0% 100%);
+}
+.bg-contact-social {
+  background-color: var(--main-color);
+  clip-path: polygon(0 0, 100% 0, 94% 72%, 8% 64%);
+}
+
+.prod::after {
+  width: 0% !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.circular{
+  width: 300 px;
+  clip-path: circle();
+  margin-top: 50px;
+}
+
+.circular-logo{
+  width: 100%;
+  clip-path: circle();
+  margin-top: 150px;
+}
+
+.logoContainer {
+  float: left;
+}
+
+.barigioca-footer{
+  clip-path: circle();
+}
+
+.rightAlign {
+  display: flex;
+  justify-content: right;
+}
+
+
+.h1-title{
+  font-size: 32px;
+  margin-right: 5%;
+}
+.p-description{
+  font-size: 20px;
+  margin:20px;
+}
+
+.h1-title-bigger{
+  font-size: 32px;
+  margin-right: 5%;
+}
+.p-description-bigger{
+  font-size: 20px;
+  margin:20px;
+}
+.p-description-bigger-contatti{
+  font-size: 20px;
+  margin:25px;
+}
+
+
+.footerList{
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+
+  /*smartphone*/
+
+  @media screen and (min-width: 320px) {    
+    .above {
+      height: 70vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+    
+    .circular-logo{
+      width: 100%;
+      clip-path: circle();
+      margin-top: 175px;
+      margin-bottom: -60px;
+    }
+ 
+    .h1-title{
+      font-size: 28px;
+      padding-left:3px;
+      padding-right:3px;
+      text-align: center;
+
+    }
+    .p-description{
+      font-size: 18px;
+      padding-left:3px;
+      padding-right:3px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  /*low resolution tablets*/
+
+  @media screen and (min-width: 480px){
+    .above {
+      height: 45vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 100%;
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      clip-path: circle();
+      margin-top: 180px;
+      margin-bottom: -70px;
+    }
+    
+    .h1-title{
+      font-size: 28px;
+      padding-left:3px;
+      padding-right:3px;
+      text-align: center;
+    }
+    .h1-title-bigger{
+      font-size: 28px;
+      padding-left:13px;
+      padding-right:3px;
+      text-align: center;
+    }
+    .p-description{
+      font-size: 19px;
+      text-align: center;
+      margin:15px;
+      justify-content: center;
+    }
+    .p-description-bigger-contatti{
+      font-size: 19px;
+      text-align: left;
+      margin-left:15px;
+      justify-content: center;
+    }
+  } 
+
+  /*high resolution tablets*/
+
+  @media screen and (min-width:768px){
+    .above {
+      height: 55vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 500px;
+      max-width: 550px;
+      margin-left: -100px;
+      clip-path: circle();
+      margin-top: 265px;
+    }
+
+    .h1-title{
+      font-size: 32px;
+      padding-left:15px;
+      padding-right:3px;
+      margin-top: 150px;
+      text-align: left;
+    }
+    .p-description{
+      font-size: 22px;
+      text-align: left;
+      margin:15px;
+    }
+    .p-description-bigger-contatti{
+      font-size: 22px;
+      text-align: left;
+      margin:25px;
+      margin-left:20px;
+    }
+
+    .scrollDown { /*freccetta sotto Header*/
+      color: rgb(245, 245, 245);
+      margin-top: 55px;
+    }
+    .scrollDown:hover {
+      padding-top: 10px;
+    }
+  } 
+
+  /*desktop*/
+
+  @media screen and (min-width:992px){
+    .above {
+      height: 60vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 500px;
+      max-width: 650px;
+      margin-left: -10%;
+      margin-right: 10%;
+      clip-path: circle();
+      margin-top: 220px;
+    }
+
+    .h1-title{
+      font-size: 36px;
+      padding-left:25px;
+      padding-right:3px;
+      padding-top: 10px;
+      text-align: left;
+      margin-top: 110px;
+    }
+
+    .p-description{
+      font-size: 22px;
+      text-align: left;
+      margin:15px;
+    }
+
+    .h1-title-bigger{
+      font-size: 36px;
+      padding-left:45px;
+      padding-right:3px;
+      padding-top: 10px;
+      text-align: left;
+      margin-top: 155px;
+      margin-left:140px;
+    }
+
+    .p-description-bigger{
+      font-size: 22px;
+      text-align: left;
+      margin:15px;
+      margin-right:175px;
+      margin-left:185px;
+    }
+    .p-description-bigger-contatti{
+      font-size: 22px;
+      text-align: left;
+      margin:25px;
+      margin-right:175px;
+      margin-left:185px;
+    }
+
+    .scrollDown { /*freccetta sotto Header*/
+      color: rgb(245, 245, 245);
+      margin-top: 130px;
+    }
+    .scrollDown:hover {
+      padding-top: 10px;
+    }
+  } 
+
+  /*high resolution desktops*/
+
+  @media screen and (min-width:1280px){
+    .above {
+      min-height: 85vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 550px;
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+      clip-path: circle();
+      margin-top: 250px;
+    }
+
+    .h1-title{
+      font-size: 40px;
+      padding-left:25px;
+      padding-right:3px;
+      text-align: left;
+      margin-top: 155px;
+    }
+    .p-description{
+      font-size: 25px;
+      text-align: left;
+      margin:25px;
+    }
+
+    .h1-title-bigger{
+      font-size: 40px;
+      padding-left:45px;
+      padding-right:3px;
+      text-align: left;
+      margin-top: 155px;
+      margin-left:140px;
+    }
+    .p-description-bigger{
+      font-size: 25px;
+      text-align: left;
+      margin-left:45px;
+      margin-right:175px;
+      margin-left:185px;
+    }
+    .p-description-bigger-contatti{
+      font-size: 28px;
+      text-align: left;
+      margin-right:175px;
+      margin-left:185px;
+    }
+
+    .scrollDown { /*freccetta sotto Header*/
+      color: rgb(245, 245, 245);
+      margin-top: 100px;
+    }
+    .scrollDown:hover {
+      padding-top: 10px;
+    }
+  } 
+
+  @media screen and (min-width:1920px){
+    .above {
+      height: 75vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 800px;
+      max-width: 950px;
+      margin-left: auto;
+      margin-right: auto;
+      clip-path: circle();
+      margin-top: 220px;
+    }
+
+    .h1-title{
+      font-size: 44px;
+      padding-left:45px;
+      padding-right:3px;
+      margin-top:100px;
+      text-align: left;
+      margin-left:140px;
+    }
+    .p-description{
+      font-size: 28px;
+      text-align: left;
+      margin:45px;
+      margin-right:175px;
+      margin-left:185px;
+    }
+
+    .h1-title-bigger{
+      font-size: 44px;
+      padding-left:45px;
+      padding-right:3px;
+      text-align: left;
+      margin-top: 100px;
+      margin-left:140px;
+    }
+
+    .p-description-bigger{
+      font-size: 28px;
+      text-align: left;
+      margin-right:175px;
+      margin-left:185px;
+    }
+
+    .p-description-bigger-contatti{
+      font-size: 28px;
+      text-align: left;
+      margin:25px;
+      margin-right:280px;
+      margin-left:190px;
+    }
+  } 
+
+  @media screen and (min-width:3840px){
+    .above {
+      height: 65vh;
+      background-color: var(--main-color);
+      clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    }
+
+    .circular-logo{
+      width: 70%;
+      margin-left: 280px;
+      clip-path: circle();
+      margin-top: 220px;
+    }
+
+    .h1-title{
+      font-size: 88px;
+      padding-left:3px;
+      padding-right:3px;
+      text-align: left;
+    }
+    .p-description{
+      font-size: 64px;
+      text-align: left;
+      margin:0;
+    }
+  } 
+
+  /*HEIGHT*/
+
+  .headerContainer{
+    min-height: 640px;
+  }
+
+  .welcomeContainer{
+    margin-top: 150px;
+  }
+
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    padding: 15px 30px;
+  }
+
+  .welcome h2{
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .welcome h2 span{
+    color: #fe4840;
+    font-weight: 700;
+  }
+
+
