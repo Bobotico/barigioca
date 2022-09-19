@@ -2,10 +2,7 @@ import React from 'react'
 
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 import "./ProductSlideshow.css";
-<<<<<<< HEAD
 import "./Cards.css";
-=======
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
 
 import Button from 'react-bootstrap/Button';
 
@@ -31,13 +28,8 @@ function Prodotti({ product }) {
         >
           <div className="container-fluid m-0 p-0">
             <img
-<<<<<<< HEAD
               src={product.image}
               className="cardImage"
-=======
-              src=".\media\alabarda_spaziale.jpg"
-              className="img-fluid"
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               alt=""
             />
           </div>
@@ -52,11 +44,7 @@ function Prodotti({ product }) {
 
         </FrontSide>
 
-<<<<<<< HEAD
         <BackSide style={{ backgroundColor: "#175852", color: "#fff", textAlign: "center"}} className="rounded ">
-=======
-        <BackSide style={{ backgroundColor: "#175852", textAlign: "center"}} className="rounded ">
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
           {" "}
           <div className="py-3">
             <h4 id="prodTitleBack title">{product.name}</h4>

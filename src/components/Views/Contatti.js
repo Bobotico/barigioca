@@ -27,15 +27,9 @@ function Contatti() {
               <p className= "p-description-bigger-contatti">
                 I contatti di "BARI GIOCA: In Libertà" che sono in questa pagina sono sempre a tua disposizione.</p>
               <p className= "p-description-bigger-contatti">
-<<<<<<< HEAD
                 Per prenotare il laboratorio per le tue sessioni: <a href="mailto:gameroom@gmail.com">gameroom@touplay.it</a></p>
               <p className= "p-description-bigger-contatti">
                 Per informazioni e proposte: <a href="mailto:info@touplay.it">info@touplay.it</a></p>
-=======
-                Per prenotare il laboratorio per le tue sessioni: <a href="gameroom@gmail.com">gameroom@touplay.it</a></p>
-              <p className= "p-description-bigger-contatti">
-                Per informazioni e proposte: <a href="info@touplay.it">info@touplay.it</a></p>
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               <p className= "p-description-bigger-contatti">  
                 Per telefonate, messaggi e altre richieste: +39 3460811523
               </p>

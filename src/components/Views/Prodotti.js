@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import HalfHeader from "../HalfHeader.js";
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
 import Cards from "../Cards";
 
 import React, { useEffect } from "react";
@@ -15,7 +11,6 @@ function Prodotti({ productCatalog }) {
 
   return (
     <>
-<<<<<<< HEAD
       <section className="p-0 m-0">
         <div className="headerContainer container-fluid d-flex flex-column half-above">
           <div className="row">
@@ -35,9 +30,6 @@ function Prodotti({ productCatalog }) {
       </section>
 
 
-=======
-      <HalfHeader />
->>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
       <div className="container my-5">
         <div data-aos="zoom-in-down" className="row justify-content-around" style={{ fontSize: '1.5em' }}>
           {productCatalog.map((product) => (
