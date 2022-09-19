@@ -13,9 +13,15 @@ function Nav({ navbar, displayMenu, closeMenu, handleClick, click, smartmenu}) {
     >
       <div className="p-0 m-0">
         <img
+<<<<<<< HEAD
           src="./media/Logo-bianco.png" /*da qui cambiamo il logo dell'header*/ 
           alt="logo tou.play"
           width="145px"
+=======
+          src="./media/logo-bianco.png" /*da qui cambiamo il logo dell'header*/ 
+          alt="logo tou.play"
+          width="175px"
+>>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
           className="img-fluid mx-4 d-block py-2" /*mx - aumentare il valore per spostare il logo più a destra*/
         />
       </div>
@@ -35,28 +41,44 @@ function Nav({ navbar, displayMenu, closeMenu, handleClick, click, smartmenu}) {
         </div>
 
           <li className="nav-item inline-list my-3 my-md-0">
+<<<<<<< HEAD
             <Link onClick={closeMenu}
+=======
+            <Link
+>>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               className="text-decoration-none font-weight-bold mx-3 text-white"
               to="/">
               Progetto
             </Link>
           </li>
           <li className="nav-item inline-list my-3 my-md-0">
+<<<<<<< HEAD
             <Link onClick={closeMenu}
+=======
+            <Link
+>>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               className="text-decoration-none font-weight-bold mx-3 text-white"
               to="/Corsi">
               I Corsi
             </Link>
           </li>
           <li className="nav-item inline-list my-3 my-md-0">
+<<<<<<< HEAD
             <Link onClick={closeMenu}
+=======
+            <Link
+>>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               className="text-decoration-none font-weight-bold mx-3 text-white"
               to="/Prodotti">
               I Prodotti
             </Link>
           </li>
           <li className="nav-item inline-list my-3 my-md-0">
+<<<<<<< HEAD
             <Link onClick={closeMenu}
+=======
+            <Link
+>>>>>>> ed4d1b40d30057484339b1ed4469bbbbbbbea3c8
               className="text-decoration-none font-weight-bold mx-3 text-white"
               to="/Contatti">
               Contatti
