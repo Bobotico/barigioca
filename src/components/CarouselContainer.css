@@ -86,9 +86,9 @@
     }
     
     .carouselImage{
-        width: 100%;
+        width: 280%;
         margin: auto;
-        opacity: .8;
+        opacity: .4;
     }
 
     .carouselItem{

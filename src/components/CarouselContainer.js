@@ -11,11 +11,11 @@ const CarouselContainer = ({ corsi }) => {
 
       <Carousel.Item className="carouselItem">
 
-        {/*<img
+        <img
         className= "carouselImage"
-        src= "" //./media/alabarda_spaziale2.jpg
+        src= "./media/storytelling.jpg" //./media/alabarda_spaziale2.jpg
         alt= "First Slide"
-        />*/}
+        />
 
         <Carousel.Caption className= "carouselCaption">
           <h1>Storytelling</h1>
@@ -32,11 +32,11 @@ const CarouselContainer = ({ corsi }) => {
 
       <Carousel.Item className="carouselItem">
 
-        {/*<img
+        <img
         className= "carouselImage"
-        src= "" //./media/alabarda_spaziale2.jpg
+        src= "./media/game_design.jpg" //./media/alabarda_spaziale2.jpg
         alt= "Second Slide"
-        />*/}
+        />
 
         <Carousel.Caption className= "carouselCaption">
           <h1>Game-design</h1>
@@ -54,11 +54,11 @@ const CarouselContainer = ({ corsi }) => {
 
       <Carousel.Item className="carouselItem">
 
-        {/*<img
+        <img
         className= "carouselImage"
-        src= "" //./media/alabarda_spaziale2.jpg
+        src= "./media/arte_e_cultura.jpg" //./media/alabarda_spaziale2.jpg
         alt= "Second Slide"
-        />*/}
+        />
 
         <Carousel.Caption className= "carouselCaption">
           <h1>Arte e cultura</h1>

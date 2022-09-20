@@ -90,21 +90,21 @@ function App() {
 
   const corsi = [
     {
-      image: "./media/alabarda_spaziale2.jpg",
+      image: "./media/storytelling.jpg",
       position: "First Slide",
       name: "Storytelling",
       description:
         "Ogni bel gioco ha una bella storia, dei dadi e delle miniature! Confrontati con gli scrittori dei personaggi e delle avventure dei nostri giochi di ruolo. Impara a governare una sessione di gioco dei sistemi di regole più importanti come Dungeons & Dragons e Vampiri: La Masquerade!",
     },
     {
-      image: "./media/alabarda_spaziale2.jpg",
+      image: "./media/game_design.jpg",
       position: "Second Slide",
       name: "Game-design",
       description:
         "Meccaniche, dinamiche, equilibrio tra turni e punteggi, elementi di gioco. Come si passa da Risiko a Zombicide? Impara gli approcci di design dai professionisti del settore e mettiti in gioco con il tuo prototipo migliore! Dall’idea all’azione!",
     },
     {
-      image: "./media/alabarda_spaziale2.jpg",
+      image: "./media/arte_e_cultura.jpg",
       position: "Third Slide",
       name: "Arte e cultura",
       description:
@@ -169,19 +169,19 @@ function App() {
         <ScrollToTop />
         <Switch>
 
-          <Route exact path="/" component={Progetto}>
+          <Route exact path="/" element={Progetto}>
             <Progetto productCatalog={productCatalog} corsi={corsi} />
           </Route>
 
-          <Route exact path="/Corsi" component={Corsi}>
+          <Route exact path="/Corsi" element={Corsi}>
             <Corsi corsi={corsi}/>
           </Route>
 
-          <Route exact path="/Prodotti" component={Prodotti}>
+          <Route exact path="/Prodotti" element={Prodotti}>
             <Prodotti productCatalog={productCatalog} />
           </Route>
 
-          <Route exact path="/Contatti" component={Contatti}>
+          <Route exact path="/Contatti" element={Contatti}>
             <Contatti/>
           </Route>
 
