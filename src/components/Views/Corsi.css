@@ -74,6 +74,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    .corso{
+        height: 80%;
+        margin: auto;
+    }
     .nomeCorso{
         text-align: left;
         justify-content: left;
@@ -87,17 +91,23 @@
     }
     
     .imageCorso{
-        min-width: 350px;
+
         width: 100%;
-        max-width: 450px;
+
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .infoCorso{
+        height: 50%;
+        margin: auto;
+    }
+    
     .nomeCorso{
         text-align: left;
         justify-content: left;
         margin-top: 0;
+        padding-top: 0;
     }
 
     .descrizioneCorso{
@@ -115,14 +125,21 @@
 @media screen and (min-width: 1280px) and (max-width: 1920px) {
     .corso{
         width: 100%;
-        height: 420px;
+        height: 80%;
+        margin: auto;
+    }
+    
+    .infoCorso{
+        height: 50%;
+        margin: auto;
     }
 
     .nomeCorso{
         text-align: left;
         justify-content: left;
         margin-top: 0;
-
+        padding-top: 0;
+        margin-left: 20px;
         font-size: 32px;
     }
 
@@ -135,7 +152,7 @@
     
     .imageCorso{
         display: flex;
-        position: absolute;
+        margin: auto;
         min-width: 550px;
         width: 100%;
         max-width: 650px;
