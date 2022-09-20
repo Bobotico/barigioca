@@ -226,6 +226,11 @@ i{
       color: white;
 
     }
+    .h1-title-bigger{
+      font-size: 28px;
+      margin-right: 5%;
+      color: white;
+    }
     .p-description{
       font-size: 18px;
       padding-left:3px;
