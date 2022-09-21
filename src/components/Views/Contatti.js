@@ -50,20 +50,20 @@ function Contatti() {
       <div className="container-fluid d-flex justify-content-center py-md-5 py-5 bg-contact-social">
         <ul className="list-unstyled d-flex">
           <li>
-            <Link className="p-0 m-0" to="https://www.facebook.com/BariGioca"> {/* nella sezione to="" inserire tra le virgolette il link del social */}
+            <a href="https://www.facebook.com/BariGioca"> {/* nella sezione to="" inserire tra le virgolette il link del social */}
               <i className="fab fa-facebook-f fa-2x mx-lg-5 mx-3 text-light"></i>
-            </Link>
+            </a>
 
           </li>
           <li>
-            <Link className="p-0 m-0" to=""> {/* nella sezione to="" inserire tra le virgolette il link del social */}
+            {/*<a href="https://www.linkedin.com/touplay">
               <i className="fab fa-twitter fa-2x mx-lg-5 mx-3 text-light"></i>
-            </Link>
+            </a>*/}
           </li>
           <li>
-            <Link className="p-0 m-0" to=""> {/* nella sezione to="" inserire tra le virgolette il link del social */}
+            <a href="https://www.instagram.com/barigioca"> {/* nella sezione to="" inserire tra le virgolette il link del social */}
               <i className="fab fa-instagram fa-2x mx-lg-5 mx-3 text-light"></i>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
