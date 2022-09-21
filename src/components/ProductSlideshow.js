@@ -8,8 +8,8 @@ const ProductSlideshow = ({ productCatalog }) => {
   return (
     <Carousel className="carouselProductContainer">
 
-    {productCatalog.map((product) => (
-      <Carousel.Item className="carouselProductItems rounded bg-transparent">
+    {productCatalog.map((product, index) => 
+      <Carousel.Item className="carouselProductItems rounded bg-transparent" key={index}>
         <div className="imageSpace col-md-3">
         <img
           className="carouselProductImages d-block circular" /*circular slideshow shadow*/
@@ -20,7 +20,7 @@ const ProductSlideshow = ({ productCatalog }) => {
         </div>
         
         <Carousel.Caption className="productInfo">
-          <div className="productTextSpace col-md-12">
+          <div key="{product}" className="productTextSpace col-md-12">
 
             <h1 className="productName">{product.name}</h1>        
             <h3 className="productDescription">{product.description2}</h3>
@@ -33,7 +33,7 @@ const ProductSlideshow = ({ productCatalog }) => {
 
         </Carousel.Caption>
       </Carousel.Item>
-      ))}
+      )}
 
     </Carousel>
   );

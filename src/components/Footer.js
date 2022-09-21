@@ -7,39 +7,39 @@ const Footer = () => {
   <div className="row">
     <div className="col-sm logoTouplay">
       <div className="row" style={{justifyContent: "center"}}>
-      <Link to ="www.touplay.it">
+      <a href="https://www.touplay.it" target="_blank" rel='noreferrer'>
       <img
         src=".\media\Logo-bianco.png"
-        className="mt-5 mb-5" /* bg-light crea un bacgkround dietro l'immagine del logo nel footer */
+        className="mt-4 mb-2 touplay-footer" /* bg-light crea un bacgkround dietro l'immagine del logo nel footer */
         width="245px"
         alt="logo Tou.play"
       />
-      </Link>
+      </a>
       </div>
 
-      <div className="row" style={{justifyContent: "center"}}>
+      <div className="row social-row" style={{justifyContent: "center"}}>
       <ul className="list-unstyled d-flex">
         <li>
-          <Link to="">
+          <a href="https://www.facebook.com/TouPlayPuglia" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-facebook-f fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
+          </a>
             </li>
         <li>
-          <Link to="">
-            <i className="fab fa-twitter fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
+          <a href="https://www.linkedin.com/company/touplay" target="_blank" rel='noreferrer' className="social-link">
+            <i className="fab fa-linkedin fa-2x mx-4 mx-md-5 text-light"></i>
+          </a>
         </li>
         <li>
-          <Link to="">
+          <a href="https://www.instagram.com/touplay" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-instagram fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
+          </a>
         </li>
       </ul>
       </div>
 
     </div>
 
-    <div class="col-sm mt-5" style={{textAlign:"center", justifyContent: "center"}}>
+    <div className="col-sm mt-5 mid-column" style={{textAlign:"center", justifyContent: "center"}}>
       <ul className="text-light list-unstyled pt-2 footerList">
         <li style={{fontSize: "22px"}}>indirizzo: Via Colonnello de Cristoforis, 8</li>
         <li style={{fontSize: "22px"}}>telefono: +39 3460811523</li>
@@ -48,34 +48,34 @@ const Footer = () => {
     </div>
 
 
-    <div class="col-sm">
+    <div className="col-sm logoBarigioca">
       <div className="row" style={{justifyContent: "center"}}>
       <Link to="/">
       <img
         src=".\media\logo_barigioca_piccolo.jpg"
-        className="mt-5 mb-5 barigioca-footer logoBarigioca" /* bg-light crea un bacgkround dietro l'immagine del logo nel footer */
+        className="mt-4 mb-2 barigioca-footer" /* bg-light crea un bacgkround dietro l'immagine del logo nel footer */
         width="140px"
         alt="logo Barigioca"
       />
       </Link>
       </div>
 
-      <div className="row" style={{justifyContent: "center"}}>
+      <div className="row social-row" style={{justifyContent: "center"}}>
       <ul className="list-unstyled d-flex">
-        <li>
-          <Link to="">
+        <li className="social-barigioca">
+          <a href="https://www.facebook.com/BariGioca" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-facebook-f fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
+          </a>
             </li>
-        <li>
+{/*        <li>
           <Link to="">
             <i className="fab fa-twitter fa-2x mx-4 mx-md-5 text-light"></i>
           </Link>
-        </li>
+</li>*/   }
         <li>
-          <Link to="">
+          <a href="https://www.instagram.com/barigioca" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-instagram fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
+          </a>
         </li>
       </ul>
       </div>

@@ -169,19 +169,19 @@ function App() {
         <ScrollToTop />
         <Switch>
 
-          <Route exact path="/" component={Progetto}>
+          <Route exact path="/" element={<Progetto />}>
             <Progetto productCatalog={productCatalog} corsi={corsi} />
           </Route>
 
-          <Route exact path="/Corsi" component={Corsi}>
+          <Route path="/Corsi" element={<Corsi />}>
             <Corsi corsi={corsi}/>
           </Route>
 
-          <Route exact path="/Prodotti" component={Prodotti}>
+          <Route path="/Prodotti" element={<Prodotti />}>
             <Prodotti productCatalog={productCatalog} />
           </Route>
 
-          <Route exact path="/Contatti" component={Contatti}>
+          <Route path="/Contatti" element={<Contatti />}>
             <Contatti/>
           </Route>
 
