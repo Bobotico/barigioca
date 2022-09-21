@@ -1,671 +1,105 @@
-.prodContainer{
-    height: 80px;
-    position: relative;
-}
-
-.prodTitle{
-    text-align: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 20px;
-    color: white;
-}
-
-.prodDescription{
-    text-align: center;
-}
-
-.prodPrice{
-    text-align: center;
-}
-
-.prodButton{
-    color: white;
-    margin: 0;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -100%);
-}
-
-.prodTitleBack{
-    text-align: center;
-    color: white;
-}
-
-.prodDescriptionBack{
-    text-align: center;
-    color: white;
-}
-
-.prodPriceBack{
-    text-align: center;
-    margin-top:25px;
-}
-
-.prodButtonBack{
-    text-align: center;
-}
-
-.productBannerHeight{
-    box-shadow: 1px 2px 15px #0000004b;
-}
-
-.productName{
-    text-align: center;
-    color: black;
-    transform: translateY(-70%);
-}
-
-.productDescription{
-    text-align: center;
-    color: black;
-}
-
-.continueButton{
-    text-align: center;
-} 
-
-
-
-.carouselProductItems{
-    width: 50%;
-    height: 750px;
-}
-.carouselProductImages{
-    width: 100%;
-    margin-top: 60px;
-    margin: auto;
-}
-
-
+/*HOMEPAGE*/
 .slideshow {
     background-color: rgba(255, 255, 255, 0);
     z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
     margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-@media screen and (min-width: 320px){
-    .productBannerHeight{
-        width: 100%;
-        height: auto;
-    }
-
-    .carouselProductItems{
-        width: 100%;
-    }
-    .carouselProductImages{
-        width: 100%;
-        max-width: 320px;
-        margin-top: 20px;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 28px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 18px;
-        padding-left: 5%;
-        padding-right: 5%;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
-    .carouselProductContainer{
-        width: 100%;
-    }  
-
-    .productInfo{
-        height: auto;
-    }
-    .productTextSpace{
-        width: 100%;
-        height:auto;
-    }
-
-    .productName{
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 20%;
-        margin-bottom: -1%;
-
-        font-size: 22px;
-    }
-    .productDescription{
-        width: 100%;
-        height: auto;
-        justify-content: flex-start;
-        align-content: left;
-        text-align: left;
-
-        font-size: 16px;
-    }
-
-    .continueButton{
-        height: 42px;
-        margin-top: 20%;
-        margin-right: 16,5%;
-    }
-    .btnTXT{
-        font-size: 18px;
-    }
+    margin-bottom: 50px;
 }
 
 
-@media screen and (min-width: 480px){
-    .carouselProduct{
-        height: 62vh;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: 750px;
-    }
-    .carouselProductImages{
-        display: flex;
-
-        width: 100%;
-        max-width: 350px;
-        margin-top: 35px;
-        margin-bottom: 20px;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 32px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 22px;
-        padding-left: 5%;
-        padding-right: 5%;
-        text-align: left;
-        margin-top: 40px;
-    }
-
-    .productBannerHeight{
-        width: 100%;
-        height: 100%;
-    }
-
-    .carouselProductContainer{
-        width: 100%;
-    }
-
-    .productInfo{
-        width: 70%;
-        height: 100%;
-    }
-    .productTextSpace{
-        width: 100%;
-        height:60%;
-        margin-top:320px;
-    }
-
-    .productName{
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-
-        font-size: 22px;
-    }
-    .productDescription{
-        width: 100%;
-        height: 200px;
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-
-        font-size: 18px;
-    }
-
-    .continueButton{
-        height: 42px;
-        margin-top: 10%;
-    }
-    .btnTXT{
-        font-size: 18px;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .carouselProduct{
-        height: 62vh;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: 750px;
-    }
-    .carouselProductImages{
-        display: flex;
-    }
-    .imageSpace{
-        display: flex;
-        margin: auto;
-        max-width: 450px;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 32px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 22px;
-        padding-left: 5%;
-        padding-right: 5%;
-        text-align: left;
-        margin-top: 40px;
-    }
-
-    .productBannerHeight{
-        width: 100%;
-        height: 100%;
-    }
-
-    .carouselProductContainer{
-        width: 100%;
-    }
-
-    .productInfo{
-        width: 70%;
-        height: 650px;
-        margin-top:20%;
-    }
-    .productTextSpace{
-        width: 100%;
-        height:60%;
-        margin-top:30%;
-    }
-
-    .productName{
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        margin-right: 75px;
-        margin-top: 45%;
-
-        font-size: 24px;
-    }
-    .productDescription{
-        width: 100%;
-        height: 100px;
-
-        font-size: 20px;
-    }
-
-    .continueButton{
-        width: 140px;
-        height: 50px;
-        margin-top: 20%;
-    }
-    .btnTXT{
-        font-size: 22px;
-    }
-}
-
-
-@media screen and (min-width: 992px){
-    .carouselProduct{
-        height: 67vh;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: 550px;
-    }
-    .carouselProductImages{
-        width: 300px;
-        max-width: 320px;
-        margin-top: 150px;
-        margin-bottom: 20px;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 36px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 22px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: left;
-        margin-top: 50px;
-    }
-
-    .productBannerHeight{
-        width: 100%;
-        height: 100%;
-    }
-    .carouselProductContainer{
-        width: 100%;
-        height: 550px;
-    }
-
-    
-    .productTextSpace{
-        width: 100%;
-        height: 60%;
-        align-items: left;
-    }
-
-    .imageSpace{
-        display: flex;
-        margin-left: 5vw;
-    }
-
-    .productInfo{
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: 450px;
-        margin-left: 250px;
-        padding-right: 50px;
-    }
-    .productName{
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-        width: 100%;
-        margin-right: 75px;
-        margin-top: -15%;
-
-        font-size: 24px;
-    }
-    .productDescription{
-        width: 100%;
-        height: 200px;
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-        margin-right: 20%;
-
-        font-size: 20px;
-    }
-
-    .continueButton{
-        width: 140px;
-        margin-right: -75%;
-        margin-top: 10%;
-    }
-    .btnTXT{
-        font-size: 22px;
-    }
-
-}
-
-
-@media screen and (min-width: 1280px){
-
-    .productBannerHeight{
-        width: 100%;
-        height: 100%;
-    }
-    .carouselProductContainer{
-        width: 100%;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: 550px;
-    }
-    .carouselProductImages{
-        width: 100%;
-        max-width: 380px;
-        margin-top: 150px;
-
-        align-items: center;
-        justify-content: center;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 40px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 20px;
-        padding-right: 5%;
-        text-align: left;
-        margin-top: 95px;
-    }
-
-    .productBannerHeight{
-        width: 100%;
-        height: 750px;
-    }
-
-    .productTextSpace{
-        width: 100%;
-        height: 60%;
-        margin-top: 5%;
-        margin-right: 5%;
-    }
-
-    .imageSpace{
-        margin-bottom: 20%;
-        margin-left: 10vw;
-    }
-
-    .productInfo{
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: 100%;
-        margin-left: 25%;
-    }
-    .productName{
-        width: 100%;
-        margin-right: 75px;
-        margin-top: 30%;
-        font-size: 28px;
-    }
-    .productDescription{
-        width: 100%;
-        height: 50%;
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-        padding-right: 5%;
-
-        font-size: 22px;
-    }
-
-    .continueButton{
-        margin-right: -75%;
-        margin-top: 80px;
-    }
-    .btnTXT{
-        font-size: 22px;
-    }
-}
-
-@media screen and (min-width: 1920px){
-
-    .productBannerHeight{
-        width: 100%;
-        height: 100%;
-    }
-
-    .carouselProductContainer{
-        width: 100%;
-        height: 650px;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: 550px;
-    }
-    .carouselProductImages{
-        width: 100%;
-        max-width: 425px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .productTextSpace{
-        width: 100%;
-        height: 50%;
-        margin-left: 5%;
-    }
-
-    .imageSpace{
-        margin-bottom: 20%;
-        width: 100%;
-    }
-
-    .productInfo{
-        align-items: center;
-        justify-content: center;
-        width: 45%;
-        height: 450px;
-        margin-left: 450px;
-    }
-    .productName{
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-        width: 100%;
-        margin-top: 30px;
-        margin-right: 75px;
-
-        font-size: 38px;
-    }
-    .productDescription{
-        width: 100%;
-        justify-content: flex-start;
-        align-content: left;
-        text-align: justify;
-        margin-right: 75px;
-
-        font-size: 26px;
-    }
-    
-    .continueButton{
-        margin-right: -75%;
-        margin-top: 20%;
-    }
-    .btnTXT{
-        font-size: 26px;
-        margin-top: -2px;
-    }
-
-
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-
-    .iprodotti{
-        font-size: 44px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 28px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: left;
-        margin-top: 40px;
-    }
-}
-
-@media screen and (min-width: 3840px){
-    .carouselProduct{
-        height: 32vh;
-    } 
-    .carouselProductItems{
-        width: 100%;
-        height: auto;
-    }
-    .carouselProductImages{
-        width: 20%;
-        margin-top: 60px;
-        margin: auto;
-    }
-    .slideshow {
-        background-color: rgba(255, 255, 255, 0);
-        z-index: 0; /*indice di trasparenza immagine carosello "corsi"*/
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .iprodotti{
-        font-size: 88px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: center;
-    }
-    
-    .iltestodeiprodotti{
-        font-size: 64px;
-        padding-left:3px;
-        padding-right:3px;
-        text-align: left;
-        margin-top: 10px;
-    }
-}
-
-.productsContainer{
-    min-height: 300px;
-}
-
-.carouselProductContainer{
-    width: 100%;
+.iProdotti{
+    color: #212529;
+    width: 220px;
+    height: 50px;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 35px auto;
+    text-align: center;
 }
 
 .productBannerHeight{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    box-shadow: 1px 2px 15px #0000004b;
+}
+
+.carouselProductContainer {
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+.image{
+    display: flex;
+    width: 40%;
+}
+.carouselProductImages{
+    display: flex;
+    margin: auto 105px;
+    margin-right: 20px;
+    margin-left: 30%;
+    min-width: 245px;
+    max-width: 425px;
+}
+.productInfo{
+    width: 60%;
+    margin: auto;
+    margin-right: 10%;
+}
+.productName {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 32px 0;
+}
+.productDescription {
+    font-weight: 400;
+    font-size: 26px;
+    margin: 12px 0;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.continueButton{
+    margin-top:25px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1080px) {
+    .carouselProductContainer {
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .image{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+    .carouselProductImages{
+        display: flex;
+        margin: auto 85px;
+        min-width: 250px; 
+        max-width: 400px;   
+    }
+    .productInfo{
+        margin: auto;
+    }
+    .productName{
+        text-align: center;
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    .productDescription{
+        text-align: center;
+        font-size: 22px;
+    }
+    .continueButton{
+        display: flex;
+        margin: 35px auto;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+    }
 }

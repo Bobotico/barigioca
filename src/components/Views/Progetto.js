@@ -42,24 +42,17 @@ function Progetto({ corsi, productCatalog }) {
      
 
 
-        <CarouselContainer corsi={corsi}/> 
+      <CarouselContainer corsi={corsi}/> 
 
-      <section className="my-5">
-      <div className="productBannerHeight container-fluid"> {/* bg-info */}
-        <div data-aos="fade-up" className="row">
-
-        <h1 className="iprodotti col-md-12 col-12 pt-5">I Prodotti</h1>
-
-
-          <div data-aos="fade-up" className="col-md-12 col-12">
-            <ProductSlideshow productCatalog={productCatalog}/>
+      <section className="my-5">        
+        <div className="productBannerHeight container-fluid">
+          <h1 className="iProdotti col-md-12 col-12 mt-5">I Prodotti</h1>
+          <div data-aos="fade-up">
+            <div data-aos="fade-up">
+              <ProductSlideshow productCatalog={productCatalog}/>
+            </div>     
           </div>
-     
         </div>
-
-        <div className="row mt-3 mb-3"></div>
-
-      </div>
       </section>
 
     </>
