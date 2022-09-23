@@ -87,12 +87,12 @@
     }
     .productName{
         text-align: center;
-        font-size: 26px;
+        font-size: 28px;
         margin-top: 25px;
     }
     .productDescription{
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
     }
     .continueButton{
         display: flex;
