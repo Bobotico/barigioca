@@ -37,14 +37,14 @@ function Prodotti({ product }) {
           <div className="py-3">
             <h4 className="prodTitle">{product.name}</h4>
 
-            <div className="prodContainer">
+            <div className="prodButtonContainer">
               <Button className="prodButton w-50 h-50">Volta la carta</Button>
             </div>
           </div>
 
         </FrontSide>
 
-        <BackSide style={{ backgroundColor: "#175852", color: "#fff", textAlign: "center"}} className="rounded ">
+        <BackSide style={{ backgroundColor: "#41669d", color: "#fff", textAlign: "center"}} className="rounded "> {/*#175852*/}
           {" "}
           <div className="py-3">
             <h4 id="prodTitleBack title">{product.name}</h4>

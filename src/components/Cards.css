@@ -3,3 +3,21 @@
     max-width: 300px;
     margin: auto;
 }
+
+.prodTitle{
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+}
+
+.prodButtonContainer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.prodButton{
+    margin-bottom: 15px;
+}

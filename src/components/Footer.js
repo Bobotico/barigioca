@@ -3,7 +3,7 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-<div className="container-fluid bg-dark">
+<div className="container-fluid bg-dark footerContainer ">
   <div className="row">
     <div className="col-sm logoTouplay">
       <div className="row" style={{justifyContent: "center"}}>
@@ -17,24 +17,20 @@ const Footer = () => {
       </a>
       </div>
 
-      <div className="row social-row" style={{justifyContent: "center"}}>
-      <ul className="list-unstyled d-flex">
-        <li>
+      <div className="row social-row" style={{justifyContent: "center", gap: 0}}>
+
           <a href="https://www.facebook.com/TouPlayPuglia" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-facebook-f fa-2x mx-4 mx-md-5 text-light"></i>
           </a>
-            </li>
-        <li>
+
           <a href="https://www.linkedin.com/company/touplay" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-linkedin fa-2x mx-4 mx-md-5 text-light"></i>
           </a>
-        </li>
-        <li>
+
           <a href="https://www.instagram.com/touplay" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-instagram fa-2x mx-4 mx-md-5 text-light"></i>
           </a>
-        </li>
-      </ul>
+
       </div>
 
     </div>
@@ -61,23 +57,15 @@ const Footer = () => {
       </div>
 
       <div className="row social-row" style={{justifyContent: "center"}}>
-      <ul className="list-unstyled d-flex">
-        <li className="social-barigioca">
+
           <a href="https://www.facebook.com/BariGioca" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-facebook-f fa-2x mx-4 mx-md-5 text-light"></i>
           </a>
-            </li>
-{/*        <li>
-          <Link to="">
-            <i className="fab fa-twitter fa-2x mx-4 mx-md-5 text-light"></i>
-          </Link>
-</li>*/   }
-        <li>
+
           <a href="https://www.instagram.com/barigioca" target="_blank" rel='noreferrer' className="social-link">
             <i className="fab fa-instagram fa-2x mx-4 mx-md-5 text-light"></i>
           </a>
-        </li>
-      </ul>
+
       </div>
     </div>
       

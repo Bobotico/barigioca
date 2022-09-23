@@ -1,7 +1,24 @@
+.logoTouplay, .logoBarigioca{
+    width: 50%;
+    margin-top: 10px;
+}
+
 .footerList{
     margin-top: 0;
     margin-bottom: 50px;
 }
+
+.social-row{
+    margin-bottom: 30px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    font-size: 0.8rem;
+}
+
 
 @media screen and (max-width: 961px) {
     .footerList{
@@ -11,13 +28,11 @@
 
 @media screen and (max-width: 768px) {
     .logoTouplay{
-        width: 50%;
         margin: 0;
     }
 
     .logoBarigioca{
         justify-content: flex-end;
-        width: 50%;
         padding-right: 0;
     }
 
@@ -29,16 +44,14 @@
         width: 65px;
     }
 
-    .social-row{
-        margin-bottom: 20px;
+    .mid-column{
+        display: none;
     }
 
     .social-link{
         display: flex;
-        font-size: 0.7rem;
-    }
-
-    .mid-column{
-        display: none;
+        justify-content: center;
+        width: 45px;
+        font-size: 0.6rem;
     }
 }
